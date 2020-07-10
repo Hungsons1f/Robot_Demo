@@ -1,7 +1,7 @@
 %clear;
 syms t p v0 a ta T;
-p = 2*pi*100/3;
-v0 = 20;
+p = 2;
+v0 = 8;
 a = 2;
 
 
@@ -45,9 +45,9 @@ ddq3 = -a+t3*0;
 q = [q1,q2,q3];
 dq = [dq1,dq2,dq3];
 ddq = [ddq1,ddq2, ddq3];
-%plot(t,q,'r');
-%figure;
-%plot(t,dq);
-%figure;
-%plot(t,ddq,'g');
+plot(t,q,'r');
+figure;
+plot(t,dq);
+figure;
+plot(t,ddq,'g');
 
